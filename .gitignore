@@ -1,0 +1,27 @@
+server/dist/
+server/node_modules/
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+client/kanban-board/node_modules
+client/kanban-board/.pnp
+client/kanban-board/.pnp.js
+
+# testing
+client/kanban-board/coverage
+
+# production
+client/kanban-board/build
+
+# misc
+client/kanban-board/.DS_Store
+client/kanban-board/.env.local
+client/kanban-board/.env.development.local
+client/kanban-board/.env.test.local
+client/kanban-board/.env.production.local
+
+client/kanban-board/npm-debug.log*
+client/kanban-board/yarn-debug.log*
+client/kanban-board/yarn-error.log*
